@@ -1,0 +1,283 @@
+@charset "utf-8";
+/* CSS Document */
+
+.topevents{
+	height:5em;
+	width:10%;
+	float:left;
+	border:1px solid gray;
+	padding:8px;
+	border-top:0px;
+	border-left:0px;
+	background-color:#232f3e;
+	border-bottom-color:white;
+}
+.wrting{
+	height:5em;
+	width:5%;
+	float:left;
+	
+}
+.wrting1{
+	height:5em;
+	width:6.5%;
+	float:left;
+	
+}
+.wrting h5{
+	font-size:11px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight:bold;
+	margin-top:25PX;
+	margin-left:9px;
+	color:#666;
+}
+
+.wrting1 h5{
+	font-size:11px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight:bold;
+	margin-top:25PX;
+	text-align:center;
+	color:#666;
+}
+.detail{
+	height:5em;
+	width:17%;
+/*	border:1px solid gray;
+	border-bottom:0px;
+	border-top:0px;*/
+	float:left;
+	margin-left:5.5px;
+	background:#FFF;
+	/*border:1px solid blue;*/
+}
+.detail1{
+	height:5em;
+	width:15.5%;
+/*	border:1px solid gray;
+	border-bottom:0px;
+	border-top:0px;*/
+	float:left;
+	margin-left:5.5px;
+	background:#FFF;
+	/*border:1px solid blue;*/
+}
+.detailsyntax{
+	height:5em;
+	float:left;
+	width:69%;
+	/*border:1px solid blue;*/
+}
+.detailsyntax h6{
+	margin-left:7px;
+	margin-top:4px;
+	font-weight:bold;
+	font-size:10px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color:#F03;
+}
+.detailsyntax img{
+	float:left;
+	margin-top:5px;
+	margin-left:7px;
+}
+.detailsyntax h3{
+	margin-top:7px;
+	margin-left:30px;
+	font-size:11px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color:#333;
+}
+#spc{
+	margin-top:0px;	
+	
+}
+#spc1{
+	margin-top:0px;
+	margin-left:8px;
+	
+}
+#spc2{
+	margin-left:-80px;
+	
+}
+#eng{
+margin-top:3px;	
+	
+}
+.qwe{
+	margin-left:-100px;
+}
+.detailsyntax h5{
+	margin-top:0px;
+	margin-left:30px;
+	font-size:11px;
+	color:#333;
+}
+.detailsyntax h7{
+	margin-left:9px;
+	font-size:11px;
+	float:left;
+	color:#333;
+	margin-top:3px;
+}
+.abc{
+	float:left;
+	margin-left:5px;
+}
+
+
+.detailimg{
+	height:6em;
+	float:right;
+	width:30%;
+	/*border:1px solid yellow;*/
+}
+.detailimg1{
+	height:6em;
+	float:left;
+	width:40%;
+	border:1px solid yellow;
+}
+
+.detailimg img{
+	margin-left:0px;
+
+}
+
+.banner{
+	height:110px;
+	margin-left:8.2%;
+	width:58%;
+/*	border:1px solid blue;*/
+	margin-bottom:10px;
+}
+.leftt{
+	height:540px;
+	width:17%;
+	/*border:1px solid blue;*/	
+	margin-left:-200px;
+	float:left;
+	margin-top:50px;
+}
+.leftt h3{
+	margin-top:10px;
+	text-align:center;
+	color:#999;	
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+}
+.fav-img{
+	margin-top:10px;
+	/*border:1px solid yellow;*/
+	height:137px;
+	width:99%;	
+	
+}
+.rightt{
+	height:540px;
+	width:25%;
+	/*border:1px solid blue;*/	
+	margin-right:0px;
+	float:right;
+	margin-top:-554px;
+}
+.pictures{
+	margin-left:8.2%;
+	width:58%;
+	height:390px;
+/*	border:1px solid blue;*/
+}
+#maping {
+	float:left
+	margin:0;
+	padding:0;
+	width:1000px;
+	height:350px;
+	background:url(duz.jpg) top left no-repeat #fff;
+	font-family:arial, helvetica, sans-serif;
+	font-size:8pt;
+	margin-left:0px;
+}
+		
+#maping li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+		
+#maping li a {
+	position:absolute;
+	display:block;
+			/*
+			   Specifying a background image
+			   (a 1px by 1px transparent gif)
+			   fixes a bug in older versions of
+			   IE that causeses the block to not
+			   render at its full dimensions.
+			*/
+	background:url(blank.gif);
+	text-decoration:none;
+	color:#000;
+}
+		
+#maping li a span { display:none; }
+		
+#maping li a:hover span {
+	position:relative;
+	display:block;
+	width:200px;
+	left:20px;
+	top:20px;
+	border:1px solid #000;
+	background:#fff;
+	padding:5px;
+ 	filter:alpha(opacity=80);
+	opacity:0.9;
+}
+	
+#maping a.pak-helmet {
+	top: 400px;
+    left: 350px;
+    width: 100px;
+    height: 150px;
+}
+#maping a.eng-helmet {
+	top: 390px;
+    left: 820px;
+    width: 130px;
+    height: 150px;
+}
+#maping a.pak-shirt {
+	top: 550px;
+    left: 300px;
+	width: 220px;
+	height: 150px;
+}
+		
+#maping a.eng-shirt {
+	top: 550px;
+	left: 800px;
+	width: 150px;
+	height: 140px;
+}
+#maping a.eng-bat {
+	top: 370px;
+	left: 740px;
+	width: 70px;
+	height: 70px;
+}
+#maping a.pak-bat {
+	top: 350px;
+	left: 470px;
+	width: 70px;
+	height: 50px;
+}
+
+
+
+
+
+
+
